@@ -1,0 +1,6 @@
+{
+  "ambientDependencies": {
+    "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#c8630523ef2ee3fb42fe65cc17af5b1b56e611bc",
+    "systemjs": "registry:dt/systemjs#0.18.4+20150723174523"
+  }
+}

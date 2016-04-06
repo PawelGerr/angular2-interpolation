@@ -1,0 +1,42 @@
+{
+  "name": "angular2-interpolation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typings": "typings",
+    "gulp": "gulp",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "pretest": "npm run gulp build:tests",
+    "test": "karma start karma.conf.js",
+    "posttest": "remap-istanbul -i coverage/coverage-final.json -o coverage -t html",
+    "coverage-server": "npm run gulp coverage-server"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-server-livereload": "^1.7.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.12.1",
+    "gulp-watch": "^4.3.4",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "remap-istanbul": "^0.5.1",
+    "run-sequence": "^1.1.2",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.9",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "lodash": "4.6.1",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.24",
+    "zone.js": "0.5.15"
+  }
+}
