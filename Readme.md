@@ -1,6 +1,7 @@
 # Angular 2 - Interpolation Service
 
 A library for interpolation based on abstract syntax tree (AST) parsers of Angular 2. 
+For more information read the blog [Angular 2 - Interpolation service](http://weblogs.thinktecture.com/pawel/2016/04/angular-2-interpolation-service.html).
 
 ## Usage
 
